@@ -1,0 +1,28 @@
+.procura_radiere,
+.procura_rar,
+.procura_vanzare {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 120px;
+  width: 100%;
+}
+
+.container-modele {
+  background: #bebbbb;
+}
+
+.procura_inmatriculare {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.procura-inmatriculare,
+.procura-radiere,
+.procura-rar,
+.procura-vanzare {
+  width: 40%;
+}

@@ -1,0 +1,79 @@
+.container-inmatriculare {
+  background: rgb(143, 100, 100);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: top 20px;
+  width: 100%;
+}
+
+.box-inmatriculare {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 60%;
+  background: #d9d9d9;
+  border-color: black;
+}
+
+.container-inmatriculare > h1 {
+  font-size: 32px;
+}
+
+.text_inmatriculare {
+  font-size: 18px;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.titlu_inmatriculare {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.btn-redacteaza {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+}
+.btn-inapoi {
+  height: 40px;
+  width: 150px;
+  font-size: 10px;
+}
+
+.butoane-inmatriculare {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.img-inmatriculare {
+  width: 100%;
+}
+.imagine-inmatriculare {
+  width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  .titlu_inmatriculare {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .butoane-inmatriculare {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

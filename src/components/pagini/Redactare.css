@@ -1,0 +1,94 @@
+body {
+  background: rgb(143, 100, 100);
+}
+.redactare {
+  max-width: 950 px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-redactare {
+  font-size: 3rem;
+  margin: 4rem 0 0 0;
+}
+
+.redactare p {
+  color: #1a1a11;
+  font-size: 1.5rem;
+}
+
+.buton-redactare {
+  position: relative;
+}
+.buton-redactare label {
+  display: inline-block;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  background: rgb(107, 48, 48);
+  color: white;
+}
+
+.buton-redactare input[type="file"] {
+  position: absolute;
+  left: 26px;
+  top: 6px;
+  z-index: -1;
+  font-size: 15px;
+  color: #1a1a11;
+}
+
+.rezultat {
+  margin: top 4rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.rezultat .box-image {
+  background: rgb(39, 36, 36);
+  height: 100%;
+  padding: 1rem;
+}
+
+.rezultat .box-p {
+  background: rgb(39, 36, 36);
+  height: 100%;
+  padding: 1rem;
+}
+
+.rezultat img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.rezultat p {
+  line: height 1.5rem;
+  font-size: 1rem;
+  color: white;
+}
+
+@media (min-width: 1000px) {
+  .rezultat {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.text_finalizare {
+  font-size: 18px;
+  width: 70%;
+  margin-top: 20px;
+  text-align: center;
+}
+.box_procura {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  max-width: 900px;
+  text-align: justify;
+  text-indent: 2em;
+}
+.titlu_procura {
+  margin-bottom: 40px;
+}
